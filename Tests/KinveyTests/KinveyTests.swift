@@ -1,5 +1,8 @@
 import XCTest
 @testable import Kinvey
+@testable import RealmCore
+@testable import RealmSwift
+
 
 final class KinveyTests: XCTestCase {
     func testExample() {
