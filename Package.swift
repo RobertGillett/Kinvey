@@ -78,6 +78,6 @@ let package = Package(
         ]),
         .testTarget(
             name: "KinveyTests",
-            dependencies: ["Kinvey"]),
+            dependencies: ["Kinvey", "Realm", "RealmSwift"]),
     ]
 )
