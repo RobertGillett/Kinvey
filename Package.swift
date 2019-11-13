@@ -26,7 +26,7 @@ let package = Package(
                 ),
                 .package(
                     url: "https://github.com/mxcl/PromiseKit.git",
-                    .upToNextMajor(from: "6.10.0")
+                    .upToNextMajor(from: "6.12.0")
                 ),
                 .package(
                     url: "https://github.com/kishikawakatsumi/KeychainAccess.git",
@@ -47,19 +47,20 @@ let package = Package(
                 .package(
                     url: "https://github.com/tjboneman/NSPredicate-MongoDB-Adaptor.git",
                     .branch("master")
-                ),
-                .package(
-                    url: "https://github.com/Quick/Quick.git",
-                    .upToNextMajor(from: "2.2.0")
-                ),
-                .package(
-                    url: "https://github.com/Quick/Nimble.git",
-                    .branch("master")
-                ),
-                .package(
-                    url: "https://github.com/weichsel/ZIPFoundation.git",
-                    .upToNextMajor(from: "0.9.9")
                 )
+//        ,
+//                .package(
+//                    url: "https://github.com/Quick/Quick.git",
+//                    .upToNextMajor(from: "2.2.0")
+//                ),
+//                .package(
+//                    url: "https://github.com/Quick/Nimble.git",
+//                    .branch("master")
+//                ),
+//                .package(
+//                    url: "https://github.com/weichsel/ZIPFoundation.git",
+//                    .upToNextMajor(from: "0.9.9")
+//                )
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
