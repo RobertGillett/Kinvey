@@ -34,11 +34,13 @@ let package = Package(
                 ),
                 .package(
                     url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git",
-                    .upToNextMajor(from: "1.8.2")
+                    .upToNextMajor(from: "1.9.1")
                 ),
                 .package(
-                    url: "https://github.com/tristanhimmelman/ObjectMapper.git",
-                    .upToNextMajor(from: "3.5.1")
+                    url: "https://github.com/RobertGillett/ObjectMapper.git",
+                    .branch("master")
+
+//                    .upToNextMajor(from: "3.5.2")
                 ),
                 .package(
                     url: "https://github.com/heyzooi/objective-c.git",
