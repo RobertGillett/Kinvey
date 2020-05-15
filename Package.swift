@@ -22,7 +22,7 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
                 .package(
                     url: "https://github.com/realm/realm-cocoa.git",
-                    .upToNextMajor(from: "3.21.0")
+                    .upToNextMajor(from: "4.4.1")
                 ),
                 .package(
                     url: "https://github.com/mxcl/PromiseKit.git",

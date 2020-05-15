@@ -95,7 +95,7 @@ open class Entity: Object, Persistable {
      :nodoc:
      */
     public required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init(realm: realm, schema: schema)
+        super.init()
     }
 
     /**
@@ -103,7 +103,7 @@ open class Entity: Object, Persistable {
      :nodoc:
      */
     public required init(value: Any, schema: RLMSchema) {
-        super.init(value: value, schema: schema)
+        super.init()
     }
     
     public required init(from decoder: Decoder) throws {

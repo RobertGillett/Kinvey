@@ -108,7 +108,7 @@ public class Metadata: Object, Codable {
      :nodoc:
      */
     public required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init(realm: realm, schema: schema)
+        super.init()
     }
     
     /**
@@ -116,7 +116,7 @@ public class Metadata: Object, Codable {
      :nodoc:
      */
     public required init(value: Any, schema: RLMSchema) {
-        super.init(value: value, schema: schema)
+        super.init()
     }
     
     /// Constructor that validates if the map can be build a new instance of Metadata.
@@ -305,11 +305,11 @@ public final class EmailVerification: Object, Codable {
     }
     
     public required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init(realm: realm, schema: schema)
+        super.init()
     }
     
     public required init(value: Any, schema: RLMSchema) {
-        super.init(value: value, schema: schema)
+        super.init()
     }
 }
 
@@ -376,11 +376,11 @@ public final class PasswordReset: Object, Codable {
     }
     
     public required init(realm: RLMRealm, schema: RLMObjectSchema) {
-        super.init(realm: realm, schema: schema)
+        super.init()
     }
     
     public required init(value: Any, schema: RLMSchema) {
-        super.init(value: value, schema: schema)
+        super.init()
     }
 }
 
