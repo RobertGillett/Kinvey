@@ -21,8 +21,10 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
                 .package(
+//                    url: "https://github.com/realm/realm-cocoa.git",
+//                    .branch("tg/combine")
                     url: "https://github.com/realm/realm-cocoa.git",
-                    .branch("tg/combine")
+                    .branch("master")
 //                    .upToNextMajor(from: "4.4.1")
                 ),
                 .package(
